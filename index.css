@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #F5BABB;
+}
+.to-do-container {
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border: 2px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 80px;
+    box-shadow: 3px 3px 2px #000000;
+    background-color: #FFF5F2;
+    border-radius: 20px;
+}
+
+.to-do-container h1 {
+    padding-top: 15px;
+    font-size: 30px;
+    color: #064232;
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+#todo-input {
+    width: 250px;
+    padding: 6px;
+    border: 2px solid black;
+}
+
+
+button {
+    height: 30px;
+    border: 2px solid black;
+    background-color: #064232;
+    color: white;
+}
+
+button:hover {
+    background-color: #568F87;
+    border-color: #568F87;
+    color: white;
+}
+
+.delete-btn {
+    border: 0;
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: #FFF5F2;
+    color: #064232;
+}
+
+span {
+    line-height: 30px;
+    padding: 2px;
+    margin: 2px;
+}
+
+li {
+    list-style-type: decimal;
+    
+}
